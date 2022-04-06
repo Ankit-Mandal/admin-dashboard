@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  /* If we apply the below margin, the sidebar as well as the featuredInfo will be pushed down */
+  /* Alternately, we can give the same margin to featuredInfo.scss */
+  // margin-top: 10px;
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
